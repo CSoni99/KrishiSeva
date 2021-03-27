@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyAccessories">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="648dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="138dp"
+                        android:layout_height="123dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/hibong" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="subs1"
+                        android:text="-" />
+
+                    <EditText
+                        android:id="@+id/TextPersonName5"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:inputType="textPersonName"
+                        android:text="0" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="add1"
+                        android:text="+" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="125 rs/kg"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="138dp"
+                        android:layout_height="123dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/ultragreen" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="subs2"
+                        android:text="-" />
+
+                    <EditText
+                        android:id="@+id/TextPersonName6"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:inputType="textPersonName"
+                        android:text="0" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="add2"
+                        android:text="+" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="140 rs/kg"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="138dp"
+                        android:layout_height="123dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/organicweed" />
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="subs3"
+                        android:text="-" />
+
+                    <EditText
+                        android:id="@+id/edt1"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:inputType="textPersonName"
+                        android:text="0" />
+
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="add3"
+                        android:text="+" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="90 rs/kg"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="138dp"
+                        android:layout_height="123dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/multik" />
+
+                    <Button
+                        android:id="@+id/btn3"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="subs4"
+                        android:text="-" />
+
+                    <EditText
+                        android:id="@+id/edt2"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:inputType="textPersonName"
+                        android:text="0" />
+
+                    <Button
+                        android:id="@+id/btn4"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="add4"
+                        android:text="+" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="130 rs/kg"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView23"
+                        android:layout_width="138dp"
+                        android:layout_height="123dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/plantton" />
+
+                    <Button
+                        android:id="@+id/btn5"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="subs5"
+                        android:text="-" />
+
+                    <EditText
+                        android:id="@+id/edt33"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:inputType="textPersonName"
+                        android:text="0" />
+
+                    <Button
+                        android:id="@+id/btn6"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="add5"
+                        android:text="+" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="200 rs/kg"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="138dp"
+                        android:layout_height="123dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/polycacaosmall" />
+
+                    <Button
+                        android:id="@+id/btn7"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="subs6"
+                        android:text="-" />
+
+                    <EditText
+                        android:id="@+id/edt44"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:inputType="textPersonName"
+                        android:text="0" />
+
+                    <Button
+                        android:id="@+id/btn8"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="add6"
+                        android:text="+" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="125 rs/kg"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView25"
+                        android:layout_width="138dp"
+                        android:layout_height="123dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/yaramila" />
+
+                    <Button
+                        android:id="@+id/btn9"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="subs7"
+                        android:text="-" />
+
+                    <EditText
+                        android:id="@+id/edt55"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:inputType="textPersonName"
+                        android:text="0" />
+
+                    <Button
+                        android:id="@+id/btn10"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="add7"
+                        android:text="+" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="85  rs/kg"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView26"
+                        android:layout_width="138dp"
+                        android:layout_height="123dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/ultragreen" />
+
+                    <Button
+                        android:id="@+id/btn11"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="subs8"
+                        android:text="-" />
+
+                    <EditText
+                        android:id="@+id/edt66"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:inputType="textPersonName"
+                        android:text="0" />
+
+                    <Button
+                        android:id="@+id/btn12"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:onClick="add8"
+                        android:text="+" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|clip_vertical"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="110 rs/kg"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:onClick="buy"
+            android:text="Order Now" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

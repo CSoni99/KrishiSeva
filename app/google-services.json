@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "103521417373",
+    "project_id": "krishiseva-48dcd",
+    "storage_bucket": "krishiseva-48dcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103521417373:android:c96cf46f52d1cc4f637c74",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103521417373-856nbo6uc5at6qhebgjf3du0l1ooajjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkJ912xix3Y_US7wwklkZQ2m8blicST4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103521417373-856nbo6uc5at6qhebgjf3du0l1ooajjn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

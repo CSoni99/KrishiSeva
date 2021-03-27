@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission
+        android:name="android.hardware.Camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".OrderActivithyMarket"
+            android:label="Marketplace"></activity>
+        <activity android:name=".GrantBank" />
+        <activity android:name=".OrderFarmingAceeessoriies"
+            android:label="Farming Acessories"/>
+        <activity android:name=".BuyAccessories" />
+        <activity android:name=".SellHarvested"
+            android:label="Sell Harvested"/>
+        <activity android:name=".GovernmentSchemeActivity"
+            android:label="Government Schemes"/>
+        <activity android:name=".CropGuide"
+            android:label="Crop Guide"/>
+        <activity android:name=".Weather"
+            android:label="Weather Prediction"/>
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".CropMarketActivity"
+            android:label="Crop Market"/>
+        <activity android:name=".EBankingActivity"
+            android:label="Online Bank"/>
+        <activity android:name=".MarketActivity"
+            android:label="Market"/>
+        <activity android:name=".InsuranceCropActivity"
+            android:label="Insure Crop"/>
+        <activity
+            android:name=".GovernmentSchemesActivity"
+            android:label="@string/title_activity_government_schemes"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity android:name=".TransportActivity"
+            android:label="Transport"/>
+        <activity android:name=".FeatureActivity" />
+        <activity android:name=".SigninActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
